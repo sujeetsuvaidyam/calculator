@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+input{
+    border: 4px solid;
+    border-radius: 15px;
+    font-size: 36px;
+}
+button{
+    width: 102px;
+    height: 60px;
+    background-color: aqua;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 6px;
+
+}
+.calculator{
+    background-color: blueviolet;
+    padding: 35px;
+    display:inline-block;
+    border-radius: 15px;
+}
+@media (max-width:568px) {
+    .center{
+        margin-left: 45%;
+    }
+}
