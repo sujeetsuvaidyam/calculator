@@ -23,7 +23,6 @@ button{
     font-size: 30px;
     border-radius: 15px;
     margin: 8px;
-
 }
 .c{
     background-color: red;
@@ -43,7 +42,6 @@ button{
 @media (max-width:768px) {
     body{
         background-color: greenyellow;
-        width: 100%;
     }
     .center{
         margin-left: 45%;
