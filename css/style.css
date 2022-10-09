@@ -11,31 +11,42 @@ table{
 }
 input{
     width: 451px;
+    height: 80px;
     border: 4px solid;
     border-radius: 15px;
     font-size: 36px;
 }
 button{
     width: 102px;
-    height: 68px;
+    height: 70px;
     background-color: aqua;
     font-size: 30px;
     border-radius: 15px;
-    margin: 6px;
+    margin: 8px;
 
 }
 .calculator{
-    background-color: blueviolet;
+    /* background-color: blueviolet;  */
     padding: 35px;
     display:inline-block;
     border-radius: 15px;
 }
 @media (max-width:568px) {
+    body{
+        background-color: greenyellow;
+    }
     .center{
         margin-left: 45%;
         margin-top: 10%;
     }
     .calculator{
         margin-top: 10%;
+        background-color: none; 
+    }
+    input{
+        height: 110px;
+    }
+    table{
+        margin-top: 40px;
     }
 }
