@@ -31,6 +31,9 @@ button{
 .g{
     background-color: green;
 }
+.op{
+    background-color: rgb(175, 195, 195);
+}
 .calculator{
     /* background-color: blueviolet;   */
     padding: 35px;
